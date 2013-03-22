@@ -17,6 +17,7 @@ $showSidebar = $hasSidebar && ($ACT=='show');
 <head>
     <meta charset="utf-8" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+<? /*	<!--[if lte IE 7]><script src="../../images/fonts/lte-ie7.js"></script><![endif]--> */ ?>
     <title><?php tpl_pagetitle() ?> [<?php echo strip_tags($conf['title']) ?>]</title>
     <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
     <?php tpl_metaheaders() ?>

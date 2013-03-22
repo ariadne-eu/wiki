@@ -31,6 +31,7 @@
 !/data/pages/wiki/welcome.txt
 /data/tmp/*
 /lib/tpl/*
+!/lib/tpl/ariadne
 !/lib/tpl/default
 !/lib/tpl/dokuwiki
 !/lib/tpl/index.php

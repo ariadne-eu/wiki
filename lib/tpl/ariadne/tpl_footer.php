@@ -16,7 +16,7 @@ if (!defined('DOKU_INC')) die();
             tpl_license('button', true, false, false); // license button, no wrapper
             $target = ($conf['target']['extern']) ? 'target="'.$conf['target']['extern'].'"' : '';
         ?>
-        <a href="http://www.dokuwiki.org/donate" title="Donate" <?php echo $target?>><img
+        <a href="http://www.ariadne-eu.org/contact" title="Donate" <?php echo $target?>><img
             src="<?php echo tpl_basedir(); ?>images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
         <a href="http://www.php.net" title="Powered by PHP" <?php echo $target?>><img
             src="<?php echo tpl_basedir(); ?>images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
@@ -30,3 +30,6 @@ if (!defined('DOKU_INC')) die();
 </div></div><!-- /footer -->
 
 <?php tpl_includeFile('footer.html') ?>
+<div class="topbar">
+  <?php tpl_include_page(':wiki:topbar') /* includes the wiki page "topbar" */ ?>
+</div>
