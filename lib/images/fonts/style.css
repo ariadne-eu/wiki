@@ -1,0 +1,135 @@
+@font-face {
+	font-family: 'ariadne-web1';
+	src:url('fonts/ariadne-web1.eot');
+	src:url('fonts/ariadne-web1.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ariadne-web1.svg#ariadne-web1') format('svg'),
+		url('fonts/ariadne-web1.woff') format('woff'),
+		url('fonts/ariadne-web1.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ariadne-web1';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'ariadne-web1';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-home:before {
+	content: "\68";
+}
+.icon-broadcast:before {
+	content: "\52";
+}
+.icon-mail:before {
+	content: "\6d";
+}
+.icon-file:before {
+	content: "\31";
+}
+.icon-upload:before {
+	content: "\e004";
+}
+.icon-twitter:before {
+	content: "\e008";
+}
+.icon-facebook:before {
+	content: "\66";
+}
+.icon-google-plus:before {
+	content: "\67";
+}
+.icon-feed:before {
+	content: "\72";
+}
+.icon-github:before {
+	content: "\74";
+}
+.icon-file-xml:before {
+	content: "\33";
+}
+.icon-libreoffice:before {
+	content: "\32";
+}
+.icon-file-pdf:before {
+	content: "\35";
+}
+.icon-file-openoffice:before {
+	content: "\36";
+}
+.icon-file-word:before {
+	content: "\37";
+}
+.icon-file-powerpoint:before {
+	content: "\38";
+}
+.icon-file-zip:before {
+	content: "\39";
+}
+.icon-yelp:before {
+	content: "\e011";
+}
+.icon-pinterest:before {
+	content: "\e012";
+}
+.icon-file-css:before {
+	content: "\34";
+}
+.icon-youtube:before {
+	content: "\79";
+}
+.icon-code:before {
+	content: "\78";
+}
+.icon-arrow-up:before {
+	content: "\5e";
+}
+.icon-arrow-right:before {
+	content: "\3e";
+}
+.icon-arrow-down:before {
+	content: "\5f";
+}
+.icon-arrow-left:before {
+	content: "\3c";
+}
+.icon-cancel:before {
+	content: "\58";
+}
+.icon-checkmark:before {
+	content: "\56";
+}
+.icon-star:before {
+	content: "\2a";
+}
+.icon-star-2:before {
+	content: "\2f";
+}
+.icon-attachment:before {
+	content: "\7e";
+}
+.icon-flag:before {
+	content: "\21";
+}
+.icon-upload-2:before {
+	content: "\40";
+}
+.icon-download:before {
+	content: "\2e";
+}
+.icon-upload-3:before {
+	content: "\e022";
+}
